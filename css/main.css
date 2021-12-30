@@ -1,0 +1,467 @@
+#main .section:first-child>a>img {
+    margin-top: 131px;
+    display: block;
+    width: 2000px;
+}
+
+#main .section:nth-child(2) {}
+
+#main .section:nth-child(2) .row3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main .section .row3 .tit {
+    float: left;
+    color: #fff;
+}
+
+#main .section .row3 .tit>p {
+    float: left;
+}
+
+#main .section .row3 .tit:first-child {
+    width: 60%;
+    background: #7b00a0;
+    padding: 30px 0;
+}
+
+#main .section .row3 .tit p:first-child {
+    font-size: 25px;
+}
+
+#main .section .row3 .tit:nth-child(1) p:nth-child(2) {
+    font-size: 20px;
+}
+
+#main .section .row3 .tit:nth-child(1) p:nth-child(1) {
+    width: 20%;
+    padding-left: 10px;
+}
+
+#main .section .row3 .tit:nth-child(1) p:nth-child(2) {
+    width: 70%;
+    padding: 2px;
+}
+
+#main .section .row3 .tit:nth-child(1) p:nth-child(3) {
+    width: 10%;
+}
+
+#main .section .row3 .tit:nth-child(2) p:nth-child(1) {
+    width: 60%;
+    padding-left: 10px;
+}
+
+#main .section .row3 .tit:nth-child(2) p:nth-child(2) {
+    width: 10%;
+}
+
+#main .section .row3 .tit p i {
+    font-size: 25px;
+}
+
+#main .section .row3 .tit:last-child {
+    width: 40%;
+    background: #FF5B28;
+    padding: 30px 0;
+}
+
+#main .section:nth-child(2) {
+    background: repeating-linear-gradient(90deg, #7b00a0, #7b00a0 60%, #FF5B28 60%, #FF5B28 100%);
+}
+
+#main .section3 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main .section3 .row4 {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 130px 0 420px;
+    text-align: center;
+}
+
+#main .section3 .row4 h2 {
+    font-size: 55px;
+    color: #fff;
+    text-shadow: 5px 5px 5px rgb(0 0 0 / 10%), -5px 5px 5px rgb(0 0 0 / 10%);
+}
+
+#main .section3 .row4 p {
+    margin: 20px 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#main .section3 .row4>a {
+    display: inline-block;
+    padding: 20px 20px;
+    background: #291B35;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#main .section3 .row4>a>i,
+#main .section4 .row5>a>i {
+    padding-left: 20px;
+}
+
+#main .section4 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#main .section4 .row5 {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 130px 0 220px;
+    text-align: center;
+}
+
+#main .section4 .row5 h2 {
+    font-size: 55px;
+}
+
+#main .section4 .row5 p {
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#main .section4 .row5>a {
+    display: inline-block;
+    padding: 20px 20px;
+    background: #FF5B28;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+#main .section5 .row6 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main .section5 .row6 .VENTI_logo {
+    text-align: center;
+}
+
+#main .section5 .row6 .VENTI_logo>p {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #4F514F;
+}
+
+/*이미지와 테이블*/
+#main .section5 .main_txt {
+    margin-top: 100px;
+    display: table;
+}
+
+#main .section5 .row6 .ad .ad1 {
+    width: 50%;
+}
+
+#main .section5 .row6 .ad .ad2 {
+    width: 50%;
+}
+
+#main .section5 .main_txt .img1 {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+}
+
+#main .section5 .main_txt .txt {
+    display: table-cell;
+    max-width: 600px;
+    text-align: left;
+    padding: 50px 100px;
+    vertical-align: middle;
+}
+
+#main .section5 .main_txt .txt>p:first-child,
+#main .section5 .main_txt2 .txt2>p:first-child {
+    font-size: 34px;
+    letter-spacing: 2px;
+}
+
+#main .section5 .main_txt .txt>p:nth-child(2),
+#main .section5 .main_txt2 .txt2>p:nth-child(2) {
+    color: #666666;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#main .section5 .main_txt .txt>i,
+#main .section5 .main_txt2 .txt2>i {
+    font-size: 25px;
+    color: #999999;
+}
+
+#main .section5 .main_txt .txt>a,
+#main .section5 .main_txt2 .txt2>a {
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 50px;
+    background: #291b35;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#main .section5 .main_txt .txt>a:hover,
+#main .section5 .main_txt2 .txt2>a:hover {
+    background: #7b00a0;
+}
+
+#main .section5 .main_txt .txt>a>i,
+#main .section5 .main_txt2 .txt2>a>i {
+    padding-left: 10px;
+}
+
+#main .section5 .main_txt2 {
+    margin-top: 30px;
+    display: table;
+}
+
+#main .section5 .main_txt2 .txt2 {
+    display: table-cell;
+    max-width: 600px;
+    text-align: right;
+    padding: 50px 100px;
+    vertical-align: middle;
+}
+
+#main .section5 .main_txt2 .img2 {
+    display: table-cell;
+    width: 50%;
+}
+
+#main .section5 .ad {
+    margin-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    z-index: -1;
+}
+
+#main .section5 .ad .ad1 {
+    float: left;
+    position: relative;
+}
+
+#main .section5 .ad .ad2 {
+    float: right;
+}
+
+#main .section5 .ad .ad1 p {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    font-size: 24px;
+}
+
+#main .section5 .ad .ad1 p::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 30px;
+    margin: 5px auto;
+}
+
+#main .section5 .ad .ad2 {
+    position: relative;
+}
+
+#main .section5 .ad .ad2 p {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #fff;
+    font-size: 24px;
+}
+
+#main .section5 .ad .ad2 p::after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #fff;
+    width: 30px;
+    margin: 5px auto;
+}
+
+#main .section6 .row7 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#main .section6 .boardwrap {
+    max-width: 595px;
+    background: #F5F5F5;
+    padding: 30px;
+}
+
+#main .section6 .boardwrap p {
+    position: relative;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#main .section6 .boardwrap p a {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    color: #7B00A0;
+}
+
+#main .section6 .boardwrap ul {
+    margin-top: 5px;
+}
+
+#main .section6 .boardwrap ul li {
+    position: relative;
+    font-size: 16px;
+    color: #555555;
+}
+
+#main .section6 .boardwrap ul li span {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+
+
+#main .section6 .row7 .wrap {
+    float: left;
+
+}
+
+#main .section6 .row7 .wrap:first-child {
+    width: 50%;
+}
+
+#main .section6 .row7 .wrap .box a {
+    display: block;
+    background-image: url(../image/bot_story.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 595px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 30px;
+    margin-top: 10px;
+}
+
+#main .section6 .row7 .box2 {
+    width: 25%;
+}
+
+#main .section6 .row7 .box3 {
+    width: 24%;
+}
+
+#main .section6 .row7 .box2 a {
+    display: block;
+    background-image: url(../image/bot_franchise.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 290px;
+    max-height: 285px;
+    font-size: 22px;
+    color: #fff;
+    padding: 30px 145px 188px 35px;
+    margin-left: 5px;
+}
+
+#main .section6 .row7 .box2 a .boxtxt {
+    width: 200px;
+}
+
+#main .section6 .row7 .box2 a .boxtxt p:first-child {
+    font-weight: bold;
+}
+
+#main .section6 .row7 .box2 a .boxtxt p:last-child {
+    font-size: 14px;
+}
+
+#main .section6 .row7 .box2 a .boxtxt p:last-child::before {
+    content: '';
+    display: block;
+    border-top: 1px solid #F5F5F5;
+    width: 30px;
+    margin: 10px 0;
+}
+
+#main .section6 .row7 .box3 {
+    background-image: url(../image/bot_store.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 290px;
+    max-height: 285px;
+    font-size: 22px;
+    color: #fff;
+    padding: 30px 55px 89px 35px;
+    margin-left: 5px;
+}
+
+#main .section6 .row7 .box3 p:nth-child(2) {
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+#main .section6 .row7 .box3 .search form {
+    position: relative;
+}
+
+#main .section6 .row7 .box3 .search form input {
+    width: 110%;
+    padding: 15px 75px 15px 15px;
+    border: 1px solid red;
+    background: transparent;
+    color: #fff;
+    margin-top: 50px;
+}
+
+#main .section6 .row7 .box3 p:nth-child(1)::after {
+    display: block;
+    content: '';
+    border: 1px solid #F5F5F5;
+    width: 30px;
+    margin: 10px 0;
+}
+
+#main .section6 .row7 .box3 .search form button {
+    position: absolute;
+    top: 50px;
+    right: -20px;
+    padding: 15px 20px 15px 20px;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+#main .section6 {
+    margin-bottom: 100px;
+}
